@@ -1,0 +1,75 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(236, 236, 236);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+span {
+  padding: 2rem;
+
+  border: 1px solid rgb(145, 145, 255);
+}
+
+td {
+  padding: 2rem;
+
+  border: 1px solid rgb(145, 145, 255);
+
+  cursor: pointer;
+}
+
+input {
+  width: 94%;
+  margin-bottom: 1rem;
+  padding: 10px;
+
+  text-align: right;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sinalOperador {
+  position: absolute;
+  z-index: 2;
+  margin-left: .5rem;
+  margin-top: 10px;
+
+  color: rgb(119, 119, 119);
+}
+
+.calculadora {
+  background-color: #fff;
+
+  border-radius: 10px;
+  width: 50%;
+
+  margin-top: 20px;
+}
+
+.calculos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.operadores, .botoesLaterais {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#zerar {
+  cursor: pointer;
+}
