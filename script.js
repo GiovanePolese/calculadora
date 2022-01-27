@@ -85,5 +85,6 @@ zerar.addEventListener("click", function(event) {
   isFirstInput = true;
   primeiroInput = 0;
   segundoInput = 0;
-  operadorCalculo = "";
+  sinalOperador.textContent = "";
+  caixaTexto.value = "";
 });
